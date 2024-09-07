@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecione sua Montanha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <h1>Selecione sua Montanha</h1>
+        <div class="search-box">
+            <select id="mountainSelect">
+                <option value="" disabled selected>Escolha uma montanha</option>
+                <option value="Aconcágua">Aconcágua</option>
+                <option value="Ojos del Salado">Ojos del Salado</option>
+                <option value="Huascarán">Huascarán</option>
+                <option value="Cerro Bonete">Cerro Bonete</option>
+                <option value="Monte Pissis">Monte Pissis</option>
+                <option value="Chimborazo">Chimborazo</option>
+                <option value="Illimani">Illimani</option>
+                <option value="Tupungato">Tupungato</option>
+                <option value="Nevado Sajama">Nevado Sajama</option>
+                <option value="Cotopaxi">Cotopaxi</option>
+            </select>
+            <button id="searchButton" onclick="searchMountain()">Escalar</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="apps.js"></script>
+</body>
+</html>
